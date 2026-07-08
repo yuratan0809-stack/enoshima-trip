@@ -1334,3 +1334,7 @@ box-shadow:0 0 10px white;
 }
 
 }
+.place-title{
+  font-size:75px !important;
+  display:inline-block;
+}
