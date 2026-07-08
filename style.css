@@ -776,6 +776,6 @@ section h2{
 .spot,
 .photo-card,
 .event{
-  opacity:1;
-  transform:none;
+  opacity:1 !important;
+  transform:none !important;
 }
