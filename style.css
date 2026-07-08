@@ -887,7 +887,22 @@ justify-content:space-around;
 
 /* タイトル */
 
+.hero-content{
+  position:absolute;
+  top:50%;
+  left:50%;
+  width:90%;
+  max-width:500px;
 
+  text-align:center;
+  color:white;
+
+  z-index:3;
+
+  transform:translate(-50%,-50%);
+
+  animation:heroFade 1.2s ease forwards;
+}
 
 .year{
   font-size:13px;
@@ -934,17 +949,15 @@ justify-content:space-around;
 
 from{
  opacity:0;
- transform:translateY(30px);
+ transform:translate(-50%,-45%);
 }
 
 to{
  opacity:1;
- transform:translateY(0);
+ transform:translate(-50%,-50%);
 }
 
 }
-
-
 /* SCROLL */
 
 .scroll{
@@ -977,14 +990,4 @@ to{
 .english-title{
   color:white;
 }
-.hero-content{
-  text-align:center;
-  color:white;
-  position:absolute;
-  top:50%;
-  left:50%;
-  width:90%;
-  transform:translate(-50%,-50%);
-  z-index:3;
-  animation:heroFade 1.2s ease forwards;
-}
+
