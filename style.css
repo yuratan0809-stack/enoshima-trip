@@ -986,3 +986,31 @@ footer{
 input:checked + label{
   color:#ff8fba;
 }
+/* ===== Cute Card Style ===== */
+
+.card,
+.spot,
+.photo-card{
+  border-radius:28px;
+
+  box-shadow:
+  0 12px 30px rgba(142,216,255,.25);
+
+  overflow:hidden;
+}
+
+
+.card:hover,
+.spot:hover,
+.photo-card:hover{
+  transform:translateY(-4px);
+}
+
+
+/* やわらかいボタン */
+
+button,
+.btn{
+  border:none;
+  box-shadow:0 8px 18px rgba(142,216,255,.35);
+}
