@@ -888,10 +888,20 @@ justify-content:space-around;
 /* タイトル */
 
 .hero-content{
+  position:absolute;
+
+  top:50%;
+  left:50%;
+
+  width:90%;
+  max-width:500px;
+
   text-align:center;
   color:white;
-  position:relative;
+
   z-index:3;
+
+  transform:translate(-50%,-50%);
 
   animation:heroFade 1.2s ease;
 }
