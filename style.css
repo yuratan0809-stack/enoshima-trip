@@ -1172,3 +1172,12 @@ box-shadow:0 0 10px white;
 .scroll{
   z-index:3;
 }
+.scroll{
+  position:absolute;
+  bottom:40px;
+  left:50%;
+
+  transform:translateX(-50%);
+
+  z-index:10;
+}
