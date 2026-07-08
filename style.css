@@ -858,3 +858,43 @@ section h2{
   color:white;
   transform:translateY(-3px);
 }
+/* ===== Menu Unified Design ===== */
+
+.navbar,
+.bottom-menu{
+  background:rgba(255,255,255,.75);
+  backdrop-filter:blur(20px);
+
+  border:1px solid rgba(255,255,255,.5);
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,.12);
+}
+
+
+/* 上メニュー */
+
+.navbar a{
+  background:transparent;
+  border-radius:30px;
+}
+
+
+.navbar a:hover{
+  background:#00a2ff;
+  color:white;
+}
+
+
+/* 下メニュー */
+
+.bottom-menu a{
+  color:#008fd5;
+  font-weight:600;
+}
+
+
+.bottom-menu a:hover{
+  color:#00a2ff;
+  transform:translateY(-5px);
+}
