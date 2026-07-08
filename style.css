@@ -149,33 +149,14 @@ font-weight:600;
 }
 
 /* ===== スマホ固定メニュー ===== */
-.bottom-menu a{
-    text-decoration:none;
-    color:#008fd5;
-
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-
-    font-size:12px;
-
-    transition:.25s ease;
-
-    padding:8px 14px;
-    border-radius:25px;
-}
 
 
 .menu-link.active{
     background:#00a2ff;
     color:white;
-    box-shadow:0 5px 15px rgba(0,162,255,.25);
-}
+    
 
 
-.bottom-menu a:active{
-    transform:scale(.96);
-}
 
 /* ===== スクロールふわっと表示 ===== */
 
@@ -817,8 +798,7 @@ button,
   max-width:400px;
 
   display:flex;
-  flex-direction:row;
-  justify-content:space-around;
+justify-content:space-around;
   align-items:center;
 
   background:rgba(255,255,255,.75);
@@ -843,10 +823,7 @@ button,
 
   font-size:12px;
 }
-.bottom-menu{
-  display:flex !important;
-  flex-direction:row !important;
-}
+
 /* ===== Check List Design ===== */
 
 .check-card label{
