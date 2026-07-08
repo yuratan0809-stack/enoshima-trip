@@ -1149,24 +1149,17 @@ box-shadow:0 0 10px white;
 }
 /* ===== Sunset Glow ===== */
 
-.hero::after{
+.hero{
+  background:
+  linear-gradient(
+    to bottom,
+    rgba(80,180,255,.25),
+    rgba(255,170,120,.25)
+  ),
+  url("https://hemingway.cafe/images/location/location_enosima_webp_50.webp");
 
-  content:"";
-
-  position:absolute;
-
-  inset:0;
-
- background:
-linear-gradient(
-  to bottom,
-  rgba(80,180,255,.25),
-  rgba(255,170,120,.35)
-),
-url("https://hemingway.cafe/images/location/location_enosima_webp_50.webp");
-  pointer-events:none;
-
-  z-index:1;
+  background-size:cover;
+  background-position:center;
 }
 
 
