@@ -272,15 +272,14 @@ grid-template-columns:1fr;
     font-size:22px;
 }
 
-
-
 .menu-link.active{
   background:#00a2ff;
   color:white;
   border-radius:25px;
   box-shadow:0 5px 15px rgba(0,162,255,.25);
-  transform:none;
+  padding:0;
 }
+
 
 /* ===== スクロールふわっと表示 ===== */
 
