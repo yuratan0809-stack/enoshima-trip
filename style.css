@@ -937,3 +937,46 @@ p{
 }
 
 }
+/* ===== Color Theme ===== */
+
+:root{
+  --sea-blue:#00a2ff;
+  --deep-blue:#008fd5;
+  --sky:#eef9ff;
+  --white:#ffffff;
+  --sunset:#ffb88c;
+}
+
+
+/* 見出し */
+
+h1,
+h2,
+h3{
+  color:var(--deep-blue);
+}
+
+
+/* ボタン */
+
+button,
+.btn{
+  background:var(--sea-blue);
+  color:white;
+}
+
+
+/* カード */
+
+.card,
+.spot,
+.photo-card{
+  border:1px solid rgba(0,162,255,.08);
+}
+
+
+/* フッター */
+
+footer{
+  background:var(--deep-blue);
+}
