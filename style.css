@@ -1333,3 +1333,17 @@ box-shadow:0 0 10px white;
 }
 
 }
+@media(max-width:768px){
+
+.place-title{
+  font-size:75px;
+  letter-spacing:6px;
+}
+
+
+.trip-title{
+  font-size:42px;
+  letter-spacing:4px;
+}
+
+}
