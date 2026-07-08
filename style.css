@@ -1147,3 +1147,13 @@ box-shadow:0 0 10px white;
   font-size:90px;
 }
 }
+.scroll{
+  position:absolute;
+  bottom:40px;
+  left:50%;
+  transform:translateX(-50%);
+  color:white;
+  letter-spacing:3px;
+  font-size:12px;
+  z-index:2;
+}
