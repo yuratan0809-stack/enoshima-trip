@@ -989,3 +989,14 @@ to{
 .english-title{
   color:white;
 }
+.hero-content{
+  display:block !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  position:absolute !important;
+  top:50% !important;
+  left:50% !important;
+  transform:translate(-50%,-50%) !important;
+  z-index:999 !important;
+  color:white !important;
+}
