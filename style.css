@@ -936,15 +936,13 @@ p{
   font-size:14px;
 }
 
-}
-/* ===== Color Theme ===== */
+/* ===== Cute Color Theme ===== */
 
 :root{
-  --sea-blue:#00a2ff;
-  --deep-blue:#008fd5;
-  --sky:#eef9ff;
-  --white:#ffffff;
-  --sunset:#ffb88c;
+  --main-blue:#8ed8ff;
+  --deep-blue:#5bbde8;
+  --soft-pink:#ffd6e7;
+  --cream:#fffaf5;
 }
 
 
@@ -953,16 +951,7 @@ p{
 h1,
 h2,
 h3{
-  color:var(--deep-blue);
-}
-
-
-/* ボタン */
-
-button,
-.btn{
-  background:var(--sea-blue);
-  color:white;
+  color:#4aaee8;
 }
 
 
@@ -971,12 +960,29 @@ button,
 .card,
 .spot,
 .photo-card{
-  border:1px solid rgba(0,162,255,.08);
+  background:var(--cream);
+  border:1px solid rgba(142,216,255,.35);
+}
+
+
+/* ボタン */
+
+button,
+.btn{
+  background:var(--main-blue);
+  border-radius:30px;
 }
 
 
 /* フッター */
 
 footer{
-  background:var(--deep-blue);
+  background:#8ed8ff;
+}
+
+
+/* チェック項目など */
+
+input:checked + label{
+  color:#ff8fba;
 }
