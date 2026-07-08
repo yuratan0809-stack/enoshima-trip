@@ -285,49 +285,7 @@ grid-template-columns:1fr;
   display: block;
   border-radius: 15px 15px 0 0;
 }
-.hero {
-  height: 100vh;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  background:
-    linear-gradient(
-      rgba(80,180,255,0.25),
-      rgba(255,255,255,0.15)
-    ),
-    url("https://hemingway.cafe/images/location/location_enosima_webp_50.webp");
-
-  background-size: cover;
-  background-position: center;
-}
-
-.hero-content {
-  text-align: center;
-  color: white;
-  text-shadow: 0 3px 15px rgba(0,0,0,0.25);
-}
-
-.year {
-  font-size: 14px;
-  letter-spacing: 6px;
-}
-
-.hero h1 {
-  font-size: 50px;
-  letter-spacing: 4px;
-  line-height: 1.2;
-}
-
-.scroll {
-  position: absolute;
-  bottom: 40px;
- left:50%;
-  transform:translateX(-50%);
-  color: white;
-  letter-spacing: 3px;
-  font-size: 12px;
 }
 /* ===== Schedule Timeline ===== */
 
@@ -484,73 +442,8 @@ grid-template-columns:1fr;
   box-shadow:0 15px 35px rgba(0,0,0,.15);
 }
 
-/* ===== Hero 追加演出 ===== */
 
 /* ===== Hero ===== */
-
-.hero{
-  height:100vh;
-  position:relative;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  overflow:hidden;
-
-  background:
-  linear-gradient(
-    rgba(80,180,255,.25),
-    rgba(255,255,255,.15)
-  ),
-  url("https://hemingway.cafe/images/location/location_enosima_webp_50.webp");
-
-  background-size:cover;
-  background-position:center;
-}
-
-
-
-.year{
-  font-size:14px;
-  letter-spacing:6px;
-}
-
-
-.hero h1{
-  font-size:50px;
-  letter-spacing:4px;
-  line-height:1.2;
-  margin:20px 0;
-}
-
-
-.subtitle{
-  font-size:16px;
-  line-height:1.8;
-}
-
-
-.scroll{
-  position:absolute;
-  bottom:40px;
-  left:50%;
-  transform:translateX(-50%);
-  color:white;
-  letter-spacing:3px;
-  font-size:12px;
-  z-index:2;
-}
-
-
-@keyframes fadeHero{
-from{
- opacity:0;
- transform:translateY(30px);
-}
-to{
- opacity:1;
- transform:translateY(0);
-}
-}
 
 
 /* ===== Budget Design ===== */
