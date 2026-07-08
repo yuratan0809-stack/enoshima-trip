@@ -1166,3 +1166,37 @@ box-shadow:0 0 10px white;
   background-size:cover;
   background-position:center;
 }
+/* ===== 江ノ島タイトル ふわっと可愛い加工 ===== */
+
+.place-title{
+  text-shadow:
+  0 5px 20px rgba(0,120,200,.35),
+  0 0 30px rgba(255,255,255,.6);
+}
+
+
+/* 夕日の光っぽい雰囲気 */
+
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+
+  background:
+  linear-gradient(
+    to bottom,
+    rgba(255,180,120,.15),
+    rgba(255,220,180,.05),
+    rgba(255,255,255,.1)
+  );
+
+  z-index:1;
+}
+
+
+/* 文字を前に出す */
+
+.hero-content{
+  position:relative;
+  z-index:2;
+}
