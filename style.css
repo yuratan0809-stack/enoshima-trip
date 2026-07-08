@@ -277,10 +277,14 @@ grid-template-columns:1fr;
   color:white;
   border-radius:25px;
   box-shadow:0 5px 15px rgba(0,162,255,.25);
-  padding:0;
+}
+.bottom-menu a{
+  transition:.2s ease;
 }
 
-
+.bottom-menu a:active{
+  transform:scale(.92);
+}
 /* ===== スクロールふわっと表示 ===== */
 
 .fade-up{
