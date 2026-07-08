@@ -887,25 +887,19 @@ justify-content:space-around;
 
 /* タイトル */
 
-.hero-content{
-  position:absolute;
 
-  top:50%;
-  left:50%;
-
-  width:90%;
-  max-width:500px;
-
+  .hero-content{
   text-align:center;
   color:white;
-
-  z-index:3;
-
+  position:absolute;
+  top:50%;
+  left:50%;
   transform:translate(-50%,-50%);
+  width:90%;
+  z-index:3;
 
   animation:heroFade 1.2s ease;
 }
-
 
 .year{
   font-size:13px;
