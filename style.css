@@ -606,20 +606,60 @@ to{
 
 
 /* カード */
+/* ===== Budget Receipt ===== */
 
-.budget-card{
-  border:1px solid #d9f2ff;
-  border-radius:25px;
+.budget-sheet{
   background:white;
+  border-radius:25px;
   padding:25px;
-  box-shadow:0 8px 20px rgba(0,0,0,.08);
-  transition:.3s;
+  max-width:600px;
+  margin:0 auto;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
 
 
-.budget-card:hover{
-  transform:translateY(-6px);
+.budget-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 5px;
+  border-bottom:1px dashed #bde8ff;
 }
+
+
+.budget-row h3{
+  color:#008fd5;
+  font-size:17px;
+}
+
+
+.budget-row p{
+  color:#666;
+  font-size:13px;
+  margin-top:5px;
+}
+
+
+.budget-row span{
+  color:#003b5c;
+  font-weight:bold;
+  font-size:18px;
+}
+
+
+.total{
+  width:220px;
+  margin:35px auto 0;
+  padding:20px;
+  text-align:center;
+  background:#00a2ff;
+  color:white;
+  border-radius:25px;
+  font-size:20px;
+  font-weight:bold;
+}
+
+
 
 
 /* 金額 */
@@ -630,21 +670,6 @@ to{
 }
 
 
-/* 合計 */
-
-.total{
-  margin-top:40px;
-  background:linear-gradient(
-    135deg,
-    #7dd3ff,
-    #00a2ff
-  );
-  color:white;
-  border-radius:30px;
-  padding:25px;
-  text-align:center;
-  box-shadow:0 10px 25px rgba(0,162,255,.3);
-}
 
 .hero-content{
 
