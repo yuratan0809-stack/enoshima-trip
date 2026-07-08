@@ -1101,13 +1101,37 @@ box-shadow:0 0 10px white;
   0 8px 25px rgba(0,0,0,.35);
 }
 
+/* ===== 女子旅フォント ===== */
 
 .place-title{
-  display:inline-block;
-
+  font-family:'Zen Maru Gothic', sans-serif;
   font-size:85px;
-  letter-spacing:8px;
+  letter-spacing:10px;
+  font-weight:700;
+
+  color:white;
+
+  text-shadow:
+  0 8px 25px rgba(0,0,0,.25),
+  0 0 25px rgba(255,255,255,.5);
 }
+
+
+.english-title{
+  font-family:'Poppins', sans-serif;
+
+  font-size:14px;
+  letter-spacing:8px;
+  font-weight:300;
+
+  color:white;
+
+  line-height:2;
+
+  text-shadow:
+  0 5px 15px rgba(0,0,0,.3);
+}
+
 
 
 .trip-title{
@@ -1118,17 +1142,7 @@ box-shadow:0 0 10px white;
 }
 
 
-.english-title{
-  color:white;
 
-  font-size:14px;
-  letter-spacing:8px;
-
-  line-height:2;
-
-  text-shadow:
-  0 5px 15px rgba(0,0,0,.3);
-}
 
 
 @media(max-width:768px){
