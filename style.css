@@ -150,12 +150,7 @@ padding:50px 20px;
 
 
 
-.hero::before{
-    content:"";
-    position:absolute;
-    width:180px;
-    height:180px;
-    background:#fff2a8;
+
     border-radius:50%;
     top:25%;
     left:50%;
