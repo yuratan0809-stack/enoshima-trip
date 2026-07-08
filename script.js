@@ -28,3 +28,35 @@ checks.forEach((check, index) => {
     localStorage.setItem("check" + index, check.checked);
   });
 });
+
+// ===== スクロールアニメーション =====
+
+const fadeElements = document.querySelectorAll(
+".card, .spot, .photo-card, .event"
+);
+
+fadeElements.forEach((el)=>{
+    el.classList.add("fade-up");
+});
+
+
+const observer = new IntersectionObserver((entries)=>{
+
+    entries.forEach((entry)=>{
+
+        if(entry.isIntersecting){
+
+            entry.target.classList.add("show");
+
+        }
+
+    });
+
+},{
+    threshold:0.2
+});
+
+
+fadeElements.forEach((el)=>{
+    observer.observe(el);
+});
