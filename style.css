@@ -433,7 +433,6 @@ grid-template-columns:1fr;
 }
 
 
-/* ===== Hero ===== */
 
 
 /* ===== Budget Design ===== */
@@ -982,185 +981,7 @@ button,
   background:#8ed8ff !important;
   color:white !important;
 }
-/* ===== Hero Sparkle ===== */
-
-.hero{
-  position:relative;
-  overflow:hidden;
-}
-
-
-.sparkle{
-  position:absolute;
-
-  width:8px;
-  height:8px;
-
-  background:white;
-  border-radius:50%;
-
-  opacity:.7;
-
-  animation:twinkle 3s infinite ease-in-out;
-}
-
-
-.sparkle1{
-  top:30%;
-  left:20%;
-}
-
-.sparkle2{
-  top:45%;
-  right:25%;
-  animation-delay:1s;
-}
-
-.sparkle3{
-  top:25%;
-  right:15%;
-  animation-delay:2s;
-}
-
-
-@keyframes twinkle{
-
-0%,100%{
-  transform:scale(.6);
-  opacity:.3;
-}
-
-50%{
-  transform:scale(1.5);
-  opacity:1;
-}
-
-}
-/* ===== Hero Sparkle ===== */
-
-.sparkle{
-  position:absolute;
-  width:6px;
-  height:6px;
-box-shadow:0 0 10px white;
-  background:white;
-  border-radius:50%;
-
-  z-index:5;
-
-  animation:twinkle 2s infinite;
-}
-
-
-.sparkle1{
-  top:30%;
-  left:20%;
-}
-
-.sparkle2{
-  top:50%;
-  left:70%;
-}
-
-.sparkle3{
-  top:25%;
-  left:80%;
-}
-
-
-@keyframes twinkle{
-
-0%,100%{
-  opacity:.3;
-  transform:scale(.8);
-}
-
-50%{
-  opacity:1;
-  transform:scale(1.5);
-}
-
-}
-
-
-/* ===== 女子旅タイトル ===== */
-
-.hero-content{
-  text-align:center;
-}
-
-
-.hero h1{
-  font-family:'Zen Maru Gothic', sans-serif;
-  color:white;
-
-  line-height:1.15;
-  margin:30px 0;
-
-  text-shadow:
-  0 8px 25px rgba(0,0,0,.35);
-}
-
-/* ===== 女子旅フォント ===== */
-
-.place-title{
-  font-family:'Zen Maru Gothic', sans-serif;
-  font-size:85px;
-  letter-spacing:10px;
-  font-weight:700;
-
-  color:white;
-
-  text-shadow:
-  0 8px 25px rgba(0,0,0,.25),
-  0 0 25px rgba(255,255,255,.5);
-}
-
-
-.english-title{
-  font-family:'Poppins', sans-serif;
-
-  font-size:14px;
-  letter-spacing:8px;
-  font-weight:300;
-
-  color:white;
-
-  line-height:2;
-
-  text-shadow:
-  0 5px 15px rgba(0,0,0,.3);
-}
-
-
-
-.trip-title{
-  display:inline-block;
-
-  font-size:42px;
-  letter-spacing:5px;
-}
-
-
-
-
-
-@media(max-width:768px){
-
-.place-title{
-  font-size:70px;
-}
-}
-.scroll{
-  position:absolute;
-  bottom:40px;
-  left:50%;
-  transform:translateX(-50%);
-  color:white;
-  letter-spacing:3px;
-  font-size:12px;
-  z-index:2;
-}
+/* ===== HERO（TOP） ===== */
 
 .hero{
   height:100vh;
@@ -1172,45 +993,156 @@ box-shadow:0 0 10px white;
 
   background:
   linear-gradient(
-    rgba(80,180,255,.25),
-    rgba(255,255,255,.15)
+    rgba(255,170,120,.18),
+    rgba(80,180,255,.15)
   ),
   url("https://hemingway.cafe/images/location/location_enosima_webp_50.webp");
 
   background-size:cover;
   background-position:center;
 }
-/* ===== 江ノ島タイトル ふわっと可愛い加工 ===== */
-
-.place-title{
-  text-shadow:
-  0 5px 20px rgba(0,120,200,.35),
-  0 0 30px rgba(255,255,255,.6);
-}
 
 
-/* 夕日の光っぽい雰囲気 */
+/* キラキラ */
 
-.hero::before{
-  content:"";
+.sparkle{
   position:absolute;
-  inset:0;
+  width:7px;
+  height:7px;
 
-  background:
-  linear-gradient(
-    to bottom,
-    rgba(255,180,120,.15),
-    rgba(255,220,180,.05),
-    rgba(255,255,255,.1)
-  );
+  background:white;
+  border-radius:50%;
 
-  z-index:1;
+  box-shadow:0 0 12px white;
+
+  animation:twinkle 2.5s infinite;
+
+  z-index:2;
+}
+
+.sparkle1{
+  top:30%;
+  left:20%;
+}
+
+.sparkle2{
+  top:50%;
+  left:70%;
+  animation-delay:1s;
+}
+
+.sparkle3{
+  top:25%;
+  left:80%;
+  animation-delay:2s;
 }
 
 
-/* 文字を前に出す */
+@keyframes twinkle{
+
+0%,100%{
+ opacity:.3;
+ transform:scale(.7);
+}
+
+50%{
+ opacity:1;
+ transform:scale(1.5);
+}
+
+}
+
+
+/* タイトル */
 
 .hero-content{
+  text-align:center;
+  color:white;
   position:relative;
-  z-index:2;
+  z-index:3;
+
+  animation:heroFade 1.2s ease;
+}
+
+
+.year{
+  font-size:13px;
+  letter-spacing:8px;
+}
+
+
+.place-title{
+
+  font-family:'Zen Maru Gothic',sans-serif;
+
+  font-size:85px;
+
+  letter-spacing:10px;
+
+  font-weight:700;
+
+  text-shadow:
+  0 8px 25px rgba(0,0,0,.35),
+  0 0 25px rgba(255,255,255,.5);
+}
+
+
+.english-title{
+
+  font-family:'Poppins',sans-serif;
+
+  font-size:14px;
+
+  letter-spacing:8px;
+
+  line-height:2;
+
+  text-shadow:
+  0 5px 15px rgba(0,0,0,.3);
+}
+
+
+/* 表示アニメーション */
+
+@keyframes heroFade{
+
+from{
+ opacity:0;
+ transform:translateY(30px);
+}
+
+to{
+ opacity:1;
+ transform:translateY(0);
+}
+
+}
+
+
+/* SCROLL */
+
+.scroll{
+  position:absolute;
+
+  bottom:40px;
+  left:50%;
+
+  transform:translateX(-50%);
+
+  color:white;
+
+  font-size:12px;
+
+  letter-spacing:3px;
+
+  z-index:3;
+}
+
+
+@media(max-width:768px){
+
+.place-title{
+  font-size:70px;
+}
+
 }
