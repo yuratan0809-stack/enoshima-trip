@@ -786,3 +786,10 @@ section h2{
   opacity:1 !important;
   transform:none !important;
 }
+.budget-sheet,
+.budget-row,
+.total{
+  opacity:1 !important;
+  visibility:visible !important;
+  transform:none !important;
+}
