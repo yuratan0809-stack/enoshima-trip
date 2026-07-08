@@ -602,3 +602,65 @@ to{
   width:90%;
   text-align:center;
 }
+
+/* ===== Budget Design ===== */
+
+#budget{
+  background:rgba(255,255,255,0.8);
+  border:1px solid rgba(0,162,255,0.2);
+  border-radius:35px;
+  margin:50px 20px;
+  padding:50px 8%;
+  box-shadow:0 15px 40px rgba(0,120,200,.12);
+  position:relative;
+}
+
+
+#budget h2{
+  text-align:center;
+  color:#008fd5;
+  letter-spacing:4px;
+  margin-bottom:35px;
+}
+
+
+/* カード */
+
+.budget-card{
+  border:1px solid #d9f2ff;
+  border-radius:25px;
+  background:white;
+  padding:25px;
+  box-shadow:0 8px 20px rgba(0,0,0,.08);
+  transition:.3s;
+}
+
+
+.budget-card:hover{
+  transform:translateY(-6px);
+}
+
+
+/* 金額 */
+
+.budget-card span{
+  color:#008fd5;
+  font-size:22px;
+}
+
+
+/* 合計 */
+
+.total{
+  margin-top:40px;
+  background:linear-gradient(
+    135deg,
+    #7dd3ff,
+    #00a2ff
+  );
+  color:white;
+  border-radius:30px;
+  padding:25px;
+  text-align:center;
+  box-shadow:0 10px 25px rgba(0,162,255,.3);
+}
