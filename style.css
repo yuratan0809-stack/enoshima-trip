@@ -1264,3 +1264,72 @@ box-shadow:0 0 10px white;
   font-size:13px;
 
 }
+/* ===== 女子旅タイトル ===== */
+
+.hero-content{
+  text-align:center;
+}
+
+
+.hero h1{
+  font-family:'Zen Maru Gothic', sans-serif;
+
+  font-size:72px;
+
+  line-height:1.15;
+
+  letter-spacing:8px;
+
+  color:white;
+
+  text-shadow:
+  0 8px 25px rgba(0,0,0,.35);
+
+  margin:30px 0;
+}
+
+
+.hero h1 span{
+  font-size:80px;
+}
+
+
+.year{
+  color:white;
+
+  font-size:13px;
+
+  letter-spacing:8px;
+}
+
+
+.english-title{
+
+  color:white;
+
+  font-size:14px;
+
+  letter-spacing:8px;
+
+  line-height:2;
+
+  text-shadow:
+  0 5px 15px rgba(0,0,0,.3);
+
+}
+
+
+/* スマホ調整 */
+
+@media(max-width:768px){
+
+.hero h1{
+  font-size:52px;
+}
+
+
+.hero h1 span{
+  font-size:58px;
+}
+
+}
