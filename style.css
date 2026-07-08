@@ -904,3 +904,6 @@ section h2{
 
   transform:none;
 }
+.navbar{
+  display:none;
+}
