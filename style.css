@@ -1099,3 +1099,57 @@ button,
   background:#8ed8ff !important;
   color:white !important;
 }
+/* ===== Hero Sparkle ===== */
+
+.hero{
+  position:relative;
+  overflow:hidden;
+}
+
+
+.sparkle{
+  position:absolute;
+
+  width:8px;
+  height:8px;
+
+  background:white;
+  border-radius:50%;
+
+  opacity:.7;
+
+  animation:twinkle 3s infinite ease-in-out;
+}
+
+
+.sparkle1{
+  top:30%;
+  left:20%;
+}
+
+.sparkle2{
+  top:45%;
+  right:25%;
+  animation-delay:1s;
+}
+
+.sparkle3{
+  top:25%;
+  right:15%;
+  animation-delay:2s;
+}
+
+
+@keyframes twinkle{
+
+0%,100%{
+  transform:scale(.6);
+  opacity:.3;
+}
+
+50%{
+  transform:scale(1.5);
+  opacity:1;
+}
+
+}
