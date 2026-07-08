@@ -9,19 +9,9 @@ html{
 scroll-behavior:smooth;
 }
 
-body{
-background:#eef9ff;
-color:#
-  padding: 14px 35px;
-
-  background: white;
-  color: #4aaee8;
-
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-
-  transition: 0.3s;
+body{body{
+  background:#eef9ff;
+  color:#333;
 }
 
 
