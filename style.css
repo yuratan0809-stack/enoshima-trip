@@ -748,3 +748,14 @@ to{
   font-size:12px;
   letter-spacing:2px;
 }
+/* ===== 全体調整 ===== */
+
+section{
+  padding-top:80px;
+  padding-bottom:80px;
+}
+
+
+section h2{
+  margin-bottom:45px;
+}
