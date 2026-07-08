@@ -1198,72 +1198,8 @@ box-shadow:0 0 10px white;
 }
 
 }
-/* ===== Title Design ===== */
-
-.english-title{
-  font-size:14px;
-
-  letter-spacing:4px;
-
-  color:white;
-
-  opacity:.9;
-
-  margin-top:15px;
-}
-/* ===== Vivid Travel Title ===== */
-
-.hero-content{
-  text-align:center;
-}
 
 
-.hero h1{
-  color:white;
-
-  font-size:60px;
-  letter-spacing:6px;
-
-  line-height:1.25;
-
-  text-shadow:
-  0 8px 25px rgba(0,0,0,.35);
-
-  margin:25px 0;
-}
-
-
-.hero h1 span{
-  font-size:68px;
-}
-
-
-.english-title{
-
-  color:white;
-
-  font-size:13px;
-
-  letter-spacing:7px;
-
-  line-height:2;
-
-  text-shadow:
-  0 5px 15px rgba(0,0,0,.3);
-
-  opacity:.95;
-}
-
-
-.year{
-
-  color:white;
-
-  letter-spacing:8px;
-
-  font-size:13px;
-
-}
 /* ===== 女子旅タイトル ===== */
 
 .hero-content{
@@ -1273,68 +1209,53 @@ box-shadow:0 0 10px white;
 
 .hero h1{
   font-family:'Zen Maru Gothic', sans-serif;
-
-  font-size:72px;
+  color:white;
 
   line-height:1.15;
-
-  letter-spacing:8px;
-
-  color:white;
+  margin:30px 0;
 
   text-shadow:
   0 8px 25px rgba(0,0,0,.35);
-
-  margin:30px 0;
 }
 
 
-.year{
-  color:white;
+.place-title{
+  display:inline-block;
 
-  font-size:13px;
-
+  font-size:85px;
   letter-spacing:8px;
+}
+
+
+.trip-title{
+  display:inline-block;
+
+  font-size:42px;
+  letter-spacing:5px;
 }
 
 
 .english-title{
-
   color:white;
 
   font-size:14px;
-
   letter-spacing:8px;
 
   line-height:2;
 
   text-shadow:
   0 5px 15px rgba(0,0,0,.3);
-
 }
 
 
-/* スマホ調整 */
-
-
-
-
-}
 @media(max-width:768px){
 
 .place-title{
-  font-size:85px;
-  letter-spacing:6px;
+  font-size:70px;
 }
-
 
 .trip-title{
-  font-size:42px;
-  letter-spacing:4px;
+  font-size:38px;
 }
 
-}
-.place-title{
-  font-size:85px !important;
-  display:inline-block;
 }
