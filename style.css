@@ -586,7 +586,6 @@ section h2{
   color:white;
   transform:translateY(-3px);
 }
-/* ===== Navigation Design ===== */
 
 /* ===== Navbar makeover ===== */
 
@@ -878,15 +877,6 @@ button,
   accent-color:#8ed8ff;
 }
 
-
-.check-card label:has(input:checked){
-
-  background:#eaf8ff;
-
-  color:#5bbde8;
-
-  transform:scale(.98);
-}
 .check-card label:has(input:checked){
   background:#8ed8ff !important;
   color:white !important;
