@@ -871,30 +871,36 @@ section h2{
   0 10px 30px rgba(0,0,0,.12);
 }
 
+/* ===== Simple Top Nav ===== */
 
-/* 上メニュー */
+.navbar{
+  background:rgba(255,255,255,.55);
+  backdrop-filter:blur(15px);
+
+  border-radius:30px;
+
+  padding:10px;
+
+  width:85%;
+  margin:15px auto;
+
+  box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
 
 .navbar a{
-  background:transparent;
-  border-radius:30px;
+  font-size:13px;
+  padding:8px 12px;
+
+  color:#008fd5;
+
+  background:none;
 }
 
 
 .navbar a:hover{
-  background:#00a2ff;
-  color:white;
-}
-
-
-/* 下メニュー */
-
-.bottom-menu a{
+  background:#eef9ff;
   color:#008fd5;
-  font-weight:600;
-}
 
-
-.bottom-menu a:hover{
-  color:#00a2ff;
-  transform:translateY(-5px);
+  transform:none;
 }
