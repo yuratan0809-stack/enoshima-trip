@@ -763,8 +763,15 @@ section h2{
 /* ===== Fade Animation ===== */
 
 .fade-up{
-  opacity:0;
-  transform:translateY(40px);
+  opacity:1;
+  transform:none;
+  transition:all 0.8s ease;
+}
+
+.fade-up.show{
+  opacity:1;
+  transform:none;
+}
   transition:all 0.8s ease;
 }
 
