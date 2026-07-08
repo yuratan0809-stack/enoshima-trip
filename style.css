@@ -359,6 +359,8 @@ grid-template-columns:1fr;
 .scroll {
   position: absolute;
   bottom: 40px;
+ left:50%;
+  transform:translateX(-50%);
   color: white;
   letter-spacing: 3px;
   font-size: 12px;
