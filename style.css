@@ -1018,6 +1018,24 @@ button,
     position:fixed;
     bottom:15px;
     left:50%;
+
     transform:translateX(-50%);
+
+    width:90%;
+    max-width:400px;
+
+    display:flex;
+    justify-content:space-around;
+
+    background:rgba(255,255,255,.75);
+    backdrop-filter:blur(15px);
+
+    border-radius:30px;
+
+    padding:12px 10px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+    z-index:9999;
 }
 }
