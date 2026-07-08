@@ -148,23 +148,7 @@ padding:50px 20px;
 
 /* ===== Hero ===== */
 
-.hero{
-    position:relative;
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    overflow:hidden;
 
-    background:
-    linear-gradient(
-        to bottom,
-        #87ceeb 0%,
-        #ffd6a5 45%,
-        #ff9a8b 70%,
-        #ff6f91 100%
-    );
-}
 
 .hero::before{
     content:"";
