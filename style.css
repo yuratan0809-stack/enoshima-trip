@@ -772,3 +772,10 @@ section h2{
   opacity:1;
   transform:translateY(0);
 }
+.card,
+.spot,
+.photo-card,
+.event{
+  opacity:1;
+  transform:none;
+}
