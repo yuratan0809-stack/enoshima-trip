@@ -440,3 +440,65 @@ grid-template-columns:1fr;
 }
 
 }
+
+/* ===== Hero Animation ===== */
+
+.hero {
+  animation: zoomBg 12s ease-in-out infinite alternate;
+}
+
+@keyframes zoomBg {
+
+  from {
+    background-size: 100%;
+  }
+
+  to {
+    background-size: 110%;
+  }
+
+}
+
+
+/* タイトルふわっと表示 */
+
+.hero-content {
+  animation: fadeIn 1.5s ease forwards;
+}
+
+
+@keyframes fadeIn {
+
+  from {
+    opacity:0;
+    transform:translateY(40px);
+  }
+
+  to {
+    opacity:1;
+    transform:translateY(0);
+  }
+
+}
+
+
+/* SCROLLアニメーション */
+
+.scroll {
+  animation: scrollMove 1.8s infinite;
+}
+
+
+@keyframes scrollMove {
+
+  0%,100% {
+    transform:translateY(0);
+    opacity:.5;
+  }
+
+  50% {
+    transform:translateY(10px);
+    opacity:1;
+  }
+
+}
