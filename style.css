@@ -1014,3 +1014,9 @@ button,
   border:none;
   box-shadow:0 8px 18px rgba(142,216,255,.35);
 }
+.bottom-menu{
+    position:fixed;
+    bottom:15px;
+    left:50%;
+    transform:translateX(-50%);
+}
