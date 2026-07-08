@@ -14,24 +14,6 @@ background:#eef9ff;
 color:#003b5c;
 }
 
-.hero {
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background:
-    linear-gradient(
-      180deg,
-      rgba(80,180,255,0.5),
-      rgba(255,160,120,0.5)
-    ),
-    url("海の写真URL");
-  background-size: cover;
-  background-position: center;
-}
-
 
 .hero-card {
   position: relative;
