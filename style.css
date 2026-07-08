@@ -1211,3 +1211,56 @@ box-shadow:0 0 10px white;
 
   margin-top:15px;
 }
+/* ===== Vivid Travel Title ===== */
+
+.hero-content{
+  text-align:center;
+}
+
+
+.hero h1{
+  color:white;
+
+  font-size:60px;
+  letter-spacing:6px;
+
+  line-height:1.25;
+
+  text-shadow:
+  0 8px 25px rgba(0,0,0,.35);
+
+  margin:25px 0;
+}
+
+
+.hero h1 span{
+  font-size:68px;
+}
+
+
+.english-title{
+
+  color:white;
+
+  font-size:13px;
+
+  letter-spacing:7px;
+
+  line-height:2;
+
+  text-shadow:
+  0 5px 15px rgba(0,0,0,.3);
+
+  opacity:.95;
+}
+
+
+.year{
+
+  color:white;
+
+  letter-spacing:8px;
+
+  font-size:13px;
+
+}
