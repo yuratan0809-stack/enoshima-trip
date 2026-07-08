@@ -1148,3 +1148,21 @@ box-shadow:0 0 10px white;
   z-index:2;
 }
 }
+.hero{
+  height:100vh;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+
+  background:
+  linear-gradient(
+    rgba(80,180,255,.25),
+    rgba(255,255,255,.15)
+  ),
+  url("https://hemingway.cafe/images/location/location_enosima_webp_50.webp");
+
+  background-size:cover;
+  background-position:center;
+}
