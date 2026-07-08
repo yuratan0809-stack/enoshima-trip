@@ -377,7 +377,7 @@ grid-template-columns:1fr;
   position:absolute;
   left:45px;
   top:0;
-  height:calc(100% - 40px);
+  height:calc(100% - 90px);
   width:3px;
   background:#7dd3ff;
 }
