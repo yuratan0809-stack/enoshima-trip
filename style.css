@@ -1014,28 +1014,41 @@ button,
   border:none;
   box-shadow:0 8px 18px rgba(142,216,255,.35);
 }
+/* ===== Bottom Menu ===== */
+
 .bottom-menu{
-    position:fixed;
-    bottom:15px;
-    left:50%;
+  position:fixed;
+  bottom:15px;
+  left:50%;
+  transform:translateX(-50%);
 
-    transform:translateX(-50%);
+  width:90%;
+  max-width:400px;
 
-    width:90%;
-    max-width:400px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
 
-    display:flex;
-    justify-content:space-around;
+  background:rgba(255,255,255,.75);
+  backdrop-filter:blur(15px);
 
-    background:rgba(255,255,255,.75);
-    backdrop-filter:blur(15px);
+  border-radius:30px;
+  padding:12px 10px;
 
-    border-radius:30px;
+  box-shadow:0 10px 30px rgba(0,0,0,.15);
 
-    padding:12px 10px;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
-
-    z-index:9999;
+  z-index:9999;
 }
+
+
+.bottom-menu a{
+  text-decoration:none;
+  color:#008fd5;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+  font-size:12px;
 }
