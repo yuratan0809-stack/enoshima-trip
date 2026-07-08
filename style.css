@@ -154,7 +154,7 @@ font-weight:600;
 .menu-link.active{
     background:#00a2ff;
     color:white;
-    
+    }
 
 
 
@@ -275,21 +275,6 @@ font-weight:600;
 
 }
 
-/* ===== Hero Animation ===== */
-
-
-
-@keyframes zoomBg {
-
-  from {
-    background-size: 100%;
-  }
-
-  to {
-    background-size: 110%;
-  }
-
-}
 
 
 /* タイトルふわっと表示 */
@@ -313,36 +298,6 @@ font-weight:600;
 
 }
 
-
-/* SCROLLアニメーション */
-
-
-
-
-@keyframes scrollMove {
-
-  0%,100% {
-    transform:translateY(0);
-    opacity:.5;
-  }
-
-  50% {
-    transform:translateY(10px);
-    opacity:1;
-  }
-
-}
-
-
-
-@keyframes bgMove {
-  from {
-    transform:scale(1);
-  }
-  to {
-    transform:scale(1.08);
-  }
-}
 .info-card{
   transition:0.3s;
 }
