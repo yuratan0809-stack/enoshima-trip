@@ -220,46 +220,6 @@ grid-template-columns:1fr;
 }
 
 /* ===== スマホ固定メニュー ===== */
-
-.bottom-menu{
-    display:none;
-}
-
-
-@media(max-width:768px){
-
-.bottom-menu{
-    position:fixed;
-    bottom:15px;
-    left:50%;
-    transform:translateX(-50%);
-    
-    width:90%;
-    max-width:400px;
-
-    background:rgba(255,255,255,.75);
-    backdrop-filter:blur(15px);
-
-    border-radius:30px;
-
-    display:flex;
-    justify-content:space-around;
-
-    padding:12px 10px;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
-
-    z-index:9999;
-}
-
-
-
-
-
-.bottom-menu a:first-letter{
-    font-size:22px;
-}
-
 .bottom-menu a{
     text-decoration:none;
     color:#008fd5;
@@ -270,7 +230,7 @@ grid-template-columns:1fr;
 
     font-size:12px;
 
-    transition:.2s ease;
+    transition:.25s ease;
 
     padding:8px 14px;
     border-radius:25px;
@@ -285,8 +245,9 @@ grid-template-columns:1fr;
 
 
 .bottom-menu a:active{
-    transform:scale(.92);
+    transform:scale(.96);
 }
+
 /* ===== スクロールふわっと表示 ===== */
 
 .fade-up{
