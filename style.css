@@ -793,3 +793,29 @@ section h2{
   visibility:visible !important;
   transform:none !important;
 }
+
+/* ===== Stylish Navigation ===== */
+
+.navbar{
+  background:rgba(255,255,255,0.75);
+  backdrop-filter:blur(15px);
+  border-radius:40px;
+  margin:15px auto;
+  width:90%;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+
+.navbar a{
+  padding:10px 18px;
+  border-radius:25px;
+  color:#008fd5;
+  transition:.3s;
+}
+
+
+.navbar a:hover{
+  background:#00a2ff;
+  color:white;
+  transform:translateY(-3px);
+}
