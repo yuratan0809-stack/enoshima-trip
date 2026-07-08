@@ -706,3 +706,45 @@ to{
     transform:translate(-50%,-50%);
   }
 }
+
+/* ===== Footer ===== */
+
+.footer{
+  margin-top:80px;
+  padding:60px 20px;
+  text-align:center;
+  background:
+  linear-gradient(
+    180deg,
+    #7dd3ff,
+    #008fd5
+  );
+  color:white;
+}
+
+
+.footer h2{
+  letter-spacing:8px;
+  font-size:32px;
+}
+
+
+.footer p{
+  margin-top:10px;
+  letter-spacing:5px;
+}
+
+
+.footer-line{
+  width:80px;
+  height:2px;
+  background:white;
+  margin:30px auto;
+  opacity:.7;
+}
+
+
+.footer small{
+  font-size:12px;
+  letter-spacing:2px;
+}
