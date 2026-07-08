@@ -434,9 +434,16 @@ grid-template-columns:1fr;
   font-weight: bold;
 }
 
+.spot {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
 .spot img {
   width: 100%;
-  height: 200px;
+  max-width: 100%;
+  height: 180px;
   object-fit: cover;
-  border-radius: 15px;
+  display: block;
+  border-radius: 15px 15px 0 0;
 }
