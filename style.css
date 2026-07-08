@@ -626,17 +626,6 @@ section h2{
   transition:all 0.8s ease;
 }
 
-.fade-up.show{
-  opacity:1;
-  transform:translateY(0);
-}
-.card,
-.spot,
-.photo-card,
-.event{
-  opacity:1 !important;
-  transform:none !important;
-}
 .budget-sheet,
 .budget-row,
 .total{
@@ -767,12 +756,6 @@ nav.navbar{
   padding:8px 12px;
 }
 /* ===== Overall Balance ===== */
-
-section{
-  padding-top:80px;
-  padding-bottom:80px;
-}
-
 
 h1{
   font-size:clamp(32px,8vw,50px);
