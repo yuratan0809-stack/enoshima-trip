@@ -1052,3 +1052,7 @@ button,
 
   font-size:12px;
 }
+.bottom-menu{
+  display:flex !important;
+  flex-direction:row !important;
+}
