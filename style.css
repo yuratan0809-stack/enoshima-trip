@@ -273,9 +273,7 @@ grid-template-columns:1fr;
 }
 
 
-.menu-link{
-  transition:0.3s ease;
-}
+
 .menu-link.active{
   background:#00a2ff;
   color:white;
