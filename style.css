@@ -1095,3 +1095,7 @@ button,
 
   transform:scale(.98);
 }
+.check-card label:has(input:checked){
+  background:#8ed8ff !important;
+  color:white !important;
+}
