@@ -349,3 +349,63 @@ grid-template-columns:1fr;
     padding:0 20px 20px;
     color:#666;
 }
+
+/* ===== スマホ固定メニュー ===== */
+
+.bottom-menu{
+    display:none;
+}
+
+
+@media(max-width:768px){
+
+.bottom-menu{
+    position:fixed;
+    bottom:15px;
+    left:50%;
+    transform:translateX(-50%);
+    
+    width:90%;
+    max-width:400px;
+
+    background:rgba(255,255,255,.75);
+    backdrop-filter:blur(15px);
+
+    border-radius:30px;
+
+    display:flex;
+    justify-content:space-around;
+
+    padding:12px 10px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+    z-index:9999;
+}
+
+
+.bottom-menu a{
+
+    text-decoration:none;
+    color:#008fd5;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    font-size:12px;
+
+    transition:.3s;
+}
+
+
+.bottom-menu a:first-letter{
+    font-size:22px;
+}
+
+
+.bottom-menu a:hover{
+    transform:translateY(-5px);
+}
+
+}
