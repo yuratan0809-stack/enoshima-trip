@@ -907,3 +907,11 @@ section h2{
 nav.navbar{
   display:none !important;
 }
+/* 現在地表示 */
+
+.menu-link.active{
+  background:#00a2ff;
+  color:white;
+  border-radius:25px;
+  padding:8px 12px;
+}
