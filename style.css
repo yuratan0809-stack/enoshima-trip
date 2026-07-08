@@ -923,6 +923,8 @@ justify-content:space-around;
 
   font-weight:700;
 
+  color:white;
+
   text-shadow:
   0 8px 25px rgba(0,0,0,.35),
   0 0 25px rgba(255,255,255,.5);
@@ -987,4 +989,9 @@ to{
   font-size:70px;
 }
 
+}
+
+.year,
+.english-title{
+  color:white;
 }
