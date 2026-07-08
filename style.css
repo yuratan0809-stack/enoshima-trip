@@ -253,8 +253,14 @@ grid-template-columns:1fr;
 }
 
 
-.bottom-menu a{
 
+
+
+.bottom-menu a:first-letter{
+    font-size:22px;
+}
+
+.bottom-menu a{
     text-decoration:none;
     color:#008fd5;
 
@@ -264,26 +270,22 @@ grid-template-columns:1fr;
 
     font-size:12px;
 
-    transition:.none;
+    transition:.2s ease;
+
+    padding:8px 14px;
+    border-radius:25px;
 }
 
-
-.bottom-menu a:first-letter{
-    font-size:22px;
-}
 
 .menu-link.active{
-  background:#00a2ff;
-  color:white;
-  border-radius:25px;
-  box-shadow:0 5px 15px rgba(0,162,255,.25);
-}
-.bottom-menu a{
-  transition:.2s ease;
+    background:#00a2ff;
+    color:white;
+    box-shadow:0 5px 15px rgba(0,162,255,.25);
 }
 
+
 .bottom-menu a:active{
-  transform:scale(.92);
+    transform:scale(.92);
 }
 /* ===== スクロールふわっと表示 ===== */
 
