@@ -423,7 +423,6 @@ grid-template-columns:1fr;
     transform:translateY(0);
 }
 
-
 .official-btn {
   display: inline-block;
   margin-top: 15px;
@@ -434,3 +433,4 @@ grid-template-columns:1fr;
   border-radius: 30px;
   font-weight: bold;
 }
+
